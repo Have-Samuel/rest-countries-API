@@ -11,6 +11,17 @@
   --Very-Dark-Blue : hsl(207, 26%, 17%); /* (Dark Mode Background) */
   --Very-Dark-Blue: hsl(200, 15%, 8%); /* (Light Mode Text) */
   --Dark-Gray : hsl(0, 0%, 52%); /* (Light Mode Input) */
-  --Very-Light-Gray : hsl(0, 0%, 98%); /* (Light Mode Background) */
+  --Very-Light-Gray : hsl(0, 6%, 90%); /* (Light Mode Background) */
   --White : hsl(0, 0%, 100%); /* (Dark Mode Text & Light Mode Elements) */
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: var(--Very-Light-Gray);
+  color: var(--Dark-Blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 375px;
 }
