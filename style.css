@@ -18,10 +18,6 @@
 body {
   font-family: 'Nunito Sans', sans-serif;
   background-color: var(--Very-Light-Gray);
-  color: var(--Dark-Blue);
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
   width: 375px;
 }
