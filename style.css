@@ -8,11 +8,11 @@
 
 :root {
   --Dark-Blue: #2b3945; /* (Dark Mode Elements) */
-  --Very-Dark-Blue : #202c37; /* (Dark Mode Background) */
+  --Very-Dark-Blue: #202c37; /* (Dark Mode Background) */
   --Very-Dark-Blue: #111517; /* 111517(Light Mode Text) */
-  --Dark-Gray : hsl(0, 0%, 52%); /* (Light Mode Input) */
-  --Very-Light-Gray : hsl(0, 6%, 90%); /* (Light Mode Background) */
-  --White : hsl(0, 0%, 100%); /* (Dark Mode Text & Light Mode Elements) */
+  --Dark-Gray: hsl(0, 0%, 52%); /* (Light Mode Input) */
+  --Very-Light-Gray: hsl(0, 6%, 90%); /* (Light Mode Background) */
+  --White: hsl(0, 0%, 100%); /* (Dark Mode Text & Light Mode Elements) */
 }
 
 body {
@@ -21,12 +21,12 @@ body {
   height: 100vh;
   width: 375px;
   margin: 0 auto;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
 
 main {
   background-color: #f3f1f1;
-  height: 100vh; 
+  height: 100vh;
 }
 
 .head {
@@ -37,7 +37,7 @@ main {
   padding: 0 1rem;
   background-color: var(--White);
   height: 80px;
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0 25px 20px -20px;
 }
 
 .icon-word {
@@ -82,7 +82,7 @@ main {
   border-radius: 5px;
   padding: 0 1rem;
   background-color: var(--White);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
   margin-top: 1rem;
 }
 
@@ -109,7 +109,7 @@ main {
   padding: 0 1rem;
   background-color: var(--White);
   border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
   border: none;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 0.9rem;
@@ -117,8 +117,6 @@ main {
   color: var(--Dark-Gray);
   outline: none;
   margin-top: 1rem;
-
   background-color: white;
   border-radius: 4px;
 }
-
