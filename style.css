@@ -83,6 +83,7 @@ main {
   padding: 0 1rem;
   background-color: var(--White);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  margin-top: 1rem;
 }
 
 .search .search-input input {
@@ -114,4 +115,6 @@ main {
   font-weight: 600;
   color: var(--Dark-Gray);
   outline: none;
+  margin-top: 1rem;
 }
+
