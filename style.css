@@ -101,16 +101,17 @@ main {
   height: 25px;
 }
 
-.search option {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* width: 100%; */
+.search .continent {
+  width: 200px;
   height: 40px;
   padding: 0 1rem;
   background-color: var(--White);
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  width: 200px;
-  height: 196px;
+  border: none;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--Dark-Gray);
+  outline: none;
 }
