@@ -24,14 +24,27 @@
           <ion-icon name="search-outline"></ion-icon>
         <input type="text" id="search" placeholder="Search for a country...">
         </div>
-      <select id="region" class="continent">
+          <p  id="region" class="continent">
+            <span>Filter by Region</span>
+          <img class="arrow-down" src="./images/icon-arrow-down.svg" alt="icon-arrow-down">
+          </p>
+          <ul class="dropdown-mobi dropdown-content" id="myDropdown">
+            <li>Africa</li>
+            <li>America</li>
+            <li>Asia</li>
+            <li>Europe</li>
+            <li>Oceania</li>
+          </ul>
+        </li>
+      <!-- <select id="region" class="continent">
+        <img src="./images/icon-arrow-down.svg" alt="">
         <option value="all">Filter by Region</option>
         <option value="africa">Africa</option>
         <option value="americas">Americas</option>
         <option value="asia">Asia</option>
         <option value="europe">Europe</option>
         <option value="oceania">Oceania</option>
-      </select>
+      </select> -->
     </div>
     <div class="location" id="countries">
       <!-- Countries go here -->
