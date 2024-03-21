@@ -7,12 +7,12 @@
 }
 
 :root {
-  --Dark-Blue: hsl(209, 23%, 22%); /* (Dark Mode Elements) */
-  --Very-Dark-Blue : hsl(207, 26%, 17%); /* (Dark Mode Background) */
-  --Very-Dark-Blue: hsl(200, 15%, 8%); /* (Light Mode Text) */
-  --Dark-Gray : hsl(0, 0%, 52%); /* (Light Mode Input) */
-  --Very-Light-Gray : hsl(0, 6%, 90%); /* (Light Mode Background) */
-  --White : hsl(0, 0%, 100%); /* (Dark Mode Text & Light Mode Elements) */
+  --Dark-Blue: #2b3945; /* (Dark Mode Elements) */
+  --Very-Dark-Blue: #202c37; /* (Dark Mode Background) */
+  --Very-Dark-Blue: #111517; /* 111517(Light Mode Text) */
+  --Dark-Gray: hsl(0, 0%, 52%); /* (Light Mode Input) */
+  --Very-Light-Gray: hsl(0, 6%, 90%); /* (Light Mode Background) */
+  --White: hsl(0, 0%, 100%); /* (Dark Mode Text & Light Mode Elements) */
 }
 
 body {
@@ -21,9 +21,102 @@ body {
   height: 100vh;
   width: 375px;
   margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
 
-.container {
+main {
+  background-color: #f3f1f1;
+  height: 100vh;
+}
+
+.head {
+  width: 375px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  background-color: var(--White);
+  height: 80px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0 25px 20px -20px;
+}
+
+.icon-word {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.icon-word ion-icon {
+  color: var(--Very-Dark-Gray);
+}
+
+.icon-word p {
+  color: var(--Very-Dark-Gray);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.head h1 {
+  font-family: 'Nunito Sans', sans-serif;
+  color: var(--Very-Dark-Blue);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.search {
+  width: 375px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.search .search-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding: 0 1rem;
+  background-color: var(--White);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  margin-top: 1rem;
+}
+
+.search .search-input input {
+  width: 85%;
+  border: none;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--Dark-Gray);
+  outline: none;
+}
+
+.search .search-input ion-icon {
+  color: var(--Dark-Gray);
+  width: 90px;
+  height: 25px;
+}
+
+.search select {
+  display: block;
+  width: 200px;
+  height: 40px;
+  padding: 0 1rem;
+  background-color: var(--White);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  border: none;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--Dark-Gray);
+  outline: none;
+  margin-top: 1rem;
+  background-color: white;
+  border-radius: 4px;
 }
