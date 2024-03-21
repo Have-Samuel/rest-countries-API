@@ -23,6 +23,12 @@ body {
   margin: 0 auto;
 }
 
+main {
+  background-color: #f3f1f1;
+  height: 100vh;
+  
+}
+
 .head {
   width: 375px;
   display: flex;
