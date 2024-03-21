@@ -36,8 +36,18 @@ body {
 
 .icon-word {
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
   align-items: center;
+}
+
+.icon-word ion-icon {
+  color: var(--Very-Dark-Gray);
+}
+
+.icon-word p {
+  color: var(--Very-Dark-Gray);
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 
 .head h1 {
