@@ -33,9 +33,6 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
@@ -53,8 +50,6 @@ Users should be able to:
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
